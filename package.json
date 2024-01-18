@@ -1,0 +1,32 @@
+{
+  "name": "sveltekit-cognito-auth",
+  "private": false,
+  "description": "Auth.js with SvelteKit using AWS Cognito OID",
+  "repository": "https://github.com/maceip/sveltekit-cognito-auth",
+  "bugs": {
+    "url": "https://github.com/maceip/sveltekit-cognito-auth/issues"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "3.1.0",
+    "@sveltejs/kit": "2.3.3",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "svelte": "4.2.9",
+    "svelte-check": "3.6.3",
+    "typescript": "5.2.2",
+    "vite": "5.0.11"
+  },
+  "dependencies": {
+    "@auth/core": "^0.21.0",
+    "@auth/sveltekit": "latest",
+    "@types/jwt-decode": "^3.1.0",
+    "jwt-decode": "^4.0.0"
+  },
+  "type": "module"
+}
