@@ -3,6 +3,10 @@
 
 quick demo of cognito as an @auth provider via sveltekit
 
+extra:
+
+sveltekit websocket client connecting to AWS API Gateway via wss & using cognito auth via a query param
+
 ## Getting started
 
 go to your cognito pool
